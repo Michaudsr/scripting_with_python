@@ -41,3 +41,7 @@ for i in range(len(squad_713)):
     ga_file.write('{}\n'.format(person))
 
 ga_file.close()
+
+read_ga_file = open('general_assembly.txt')
+list_of_people = read_ga_file.readlines()
+print(list_of_people)
